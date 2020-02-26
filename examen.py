@@ -34,7 +34,7 @@ def Calificacion():
         cal = 100
 
     mBox.showinfo('Tu calificacion es de: ' + cal)
-            
+
 #----------------------------------------------------------------------------------------------------------
 #----------------------------------------------------------------------------------------------------------
 #----------------------------------------------------------------------------------------------------------
@@ -88,27 +88,27 @@ radio3.place(x=225,y=160)
 ttk.Label(ventana, text= "Selecciona 2 marcas conocidas de cemento").place(x = 10, y = 180)
 respuesta5 = tk.IntVar()
 aux = respuesta5.get()
-check = tk.Checkbutton(ventana, text = "Cemex", variable = respuesta5, onvalue = 1, offvalue = 0)
+check = tk.Checkbutton(ventana, text = "Cemex", variable = respuesta5)
 check.deselect()
 check.place(x=10,y=200)
 
 respuesta5 = tk.IntVar()
-check = tk.Checkbutton(ventana, text = "Nahuatl", variable = respuesta5, onvalue = 0, offvalue = 0)
+check = tk.Checkbutton(ventana, text = "Nahuatl", variable = respuesta5)
 check.deselect()
 check.place(x=120,y=200)
 
 respuesta5 = tk.IntVar()
-check = tk.Checkbutton(ventana, text = "Moctezuma", variable = respuesta5, onvalue = 1, offvalue = 0)
+check = tk.Checkbutton(ventana, text = "Moctezuma", variable = respuesta5)
 check.deselect()
 check.place(x=225,y=200)
 
 respuesta5 = tk.IntVar()
-check = tk.Checkbutton(ventana, text = "Cemento Chuchita", variable = respuesta5, onvalue = 0, offvalue = 0)
+check = tk.Checkbutton(ventana, text = "Cemento Chuchita", variable = respuesta5)
 check.deselect()
 check.place(x=330,y=200)
 
 respuesta5 = tk.IntVar()
-check = tk.Checkbutton(ventana, text = "EduCemex", variable = respuesta5, onvalue = 0, offvalue = 0)
+check = tk.Checkbutton(ventana, text = "EduCemex", variable = respuesta5)
 check.deselect()
 check.place(x=150,y=220)
 
